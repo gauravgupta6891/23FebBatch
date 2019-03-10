@@ -9,10 +9,13 @@ public class OperaDemo {
 		
 		System.out.println(2==3);
 		
+		try{
 		int b=12;
 		b = b++ + ++b +b++ +b--;
 		System.out.println(b);
-		
+		}catch(NumberFormatException t){
+			
+		}
 		int a=11;
 		
 		if(a%2==0){
